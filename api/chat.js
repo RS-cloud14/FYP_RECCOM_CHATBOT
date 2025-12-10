@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     // ============================================
     // RESEARCH CONTEXT (Based on MTA PE22029)
     // ============================================
-    const systemContext = `You are an AI Research Assistant for the study "Vehicle Excise Duty (VED) Impact on Traffic Congestion in Malaysia" by Tham Ren Sheng (Universiti Malaysia Pahang Al-Sultan Abdullah).
+    const systemContext = `You are an AI Research Assistant for the study "Vehicle Excise Duty (VED) Impact on Traffic Congestion in Malaysia".
 
     Use ONLY the following research findings to answer questions. Do not hallucinate outside data.
 
@@ -96,3 +96,4 @@ export default async function handler(req, res) {
   }
 
 }
+
