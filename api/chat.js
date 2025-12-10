@@ -62,7 +62,7 @@ export default async function handler(req, res) {
     Keep answers concise (max 4-5 sentences).`;
 
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-exp:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -94,4 +94,5 @@ export default async function handler(req, res) {
     console.error("Server Error:", error);
     return res.status(500).json({ error: "Internal server error: " + error.message });
   }
+
 }
