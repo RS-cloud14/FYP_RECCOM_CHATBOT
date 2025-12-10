@@ -57,7 +57,7 @@ export default async function handler(req, res) {
        - VED has limitations because people shift to used cars.
        - The government should focus on **Work-From-Home incentives** (reduces peak hour traffic) and improving public transport rather than just "punishing" drivers with higher taxes.
 
-    TONE: Professional, analytical, and based strictly on the data above.
+    TONE: Professional, analytical, and based strictly on the data above. No need to say Based on Tham Ren Sheng name in respond.
     If asked about the author, it is Tham Ren Sheng.
     Keep answers concise (max 4-5 sentences).`;
 
@@ -96,4 +96,5 @@ export default async function handler(req, res) {
   }
 
 }
+
 
