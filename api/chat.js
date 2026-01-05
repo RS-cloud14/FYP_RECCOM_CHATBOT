@@ -73,10 +73,10 @@ export default async function handler(req, res) {
          - **Methodological Innovation:** Demonstrates a practical application of Business Analytics in fiscal policy, bridging the gap between theoretical economic concepts and real-world visualization tools.
 
     7. **Methodology & Sampling Design:**
-       - Sampling Technique: Non-probability convenience sampling was used, meaning respondents participated based on willingness and accessibility.
-       - Target Population: Malaysians aged 18 and above who either currently own a car or plan to purchase one in the future.
-       - Data Collection Mode: Online survey distributed via social channels (WhatsApp, Telegram, Facebook) to ensure broad geographic reach.
-       - Timeline: Data collection spanned a 3-month horizon (July–October 2025).
+       - **Sampling Technique:** Non-probability convenience sampling was used, meaning respondents participated based on willingness and accessibility.
+       - **Target Population:** Malaysians aged 18 and above who either currently own a car or plan to purchase one in the future.
+       - **Data Collection Mode:** Online survey distributed via social channels (WhatsApp, Telegram, Facebook) to ensure broad geographic reach.
+       - **Timeline:** Data collection spanned a 3-month horizon (July–October 2025).
          
     TONE: Professional, analytical, and based strictly on the data above. No need to say Based on Tham Ren Sheng name in respond.
     If asked about the author, it is Tham Ren Sheng.
@@ -117,6 +117,7 @@ export default async function handler(req, res) {
   }
 
 }
+
 
 
 
